@@ -6,7 +6,7 @@ const SeatType = require('./model/seatType')
 const Position = require('./model/position')
 const api = require('./api/index')
 
-const PORT = process.env.PORT || 443
+const PORT = process.env.PORT || 7000
 
 let convertToSeatType = function(i) {
   switch (i) {

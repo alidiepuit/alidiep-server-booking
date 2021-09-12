@@ -1,3 +1,17 @@
-## Deploy with Vercel
+## Server booking
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Falidiepuit%2Fserver-booking)
+#####Run server
+```
+PORT=7000 npm start
+```
+Default PORT=7000
+
+This server is very basic, using Node.JS to booking ticket.
+##How it work
+1. Server load map theater since starting.
+```
+
+```
+2. API load list seats
+3. API check whether seat is available or not
+4. API booking seat, include add information of user (name, email)
