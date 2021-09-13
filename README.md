@@ -29,6 +29,7 @@ case 4: SeatType.notBookable
 case 5: SeatType.occupied
 ```
 If there is not any seat in position, it's -1
+
 2. API load list seats
 3. API check whether seat is available or not. The selected seat is available in 60s.
 4. API booking seat, include add information of user (name, email)
