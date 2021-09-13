@@ -1,6 +1,6 @@
 ## Server booking
 
-####Run server
+##Run server
 ```
 PORT=7000 npm start
 ```
